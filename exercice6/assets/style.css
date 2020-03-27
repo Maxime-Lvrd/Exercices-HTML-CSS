@@ -1,0 +1,54 @@
+div#vert {
+    float: left;
+	width: 80%;
+	height: 25px;
+	background-color: #39CA74;
+    }
+div#bleu {
+    float: right;
+    width: 20%;
+    height: 25px;
+    background-color: #2F81B7;
+}
+div#rouge {
+    float: left;
+    width: 40%;
+    height: 70px;
+    background-color: #E54D42;
+}
+div#orange {
+    float: left;
+    width: 30%;
+    height: 35px;
+    background-color: #E47E30;
+}
+div#gris {
+    float: right;
+    width: 30%;
+    height: 35px;
+    background-color: #95A5A6;
+}
+div#jaune {
+    float: left;
+    width: 20%;
+    height: 35px;
+    background-color: #F19B2C;
+}
+div#bleuvert {
+    float: left;
+    width: 20%;
+    height: 35px;
+    background-color: #239F85;
+}
+div#marron {
+    float: right;
+    width: 20%;
+    height: 35px;
+    background-color: #D15419;
+}
+div#grisfonce {
+    clear: both;
+    width: 100%;
+    height: 90px;
+    background-color: #2D3E4F;
+}

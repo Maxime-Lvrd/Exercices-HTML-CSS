@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Exercice 7</title>
+        <link rel="stylesheet" href="assets/style.css">
+    </head>
+    <body>
+        <form action="" method="post">
+            <fieldset>
+                <legend>Votre identité</legend>
+                <label for="lastname">Nom</label>
+                <input type="text" name="lastname" id="lastname" placeholder="DUPONT">
+                <label for="firstname">Prénom</label>
+                <input type="text" name="firstname" id="firstname" placeholder="Jean">
+                <label for="mail">Adresse mail</label>
+                <input type="text" name="mail" id="mail" placeholder="jean.dupont@gmail.com">
+            </fieldset>
+            <fieldset>
+                <legend>Adresse de livraison</legend>
+                <label for="address">Adresse</label>
+                <textarea name="address" id="address" cols="30" rows="2" placeholder="1 rue du moulin"></textarea>
+                <label for="zipcode">Code postal</label>
+                <input type="text" name="zipcode" id="zipcode" placeholder="75000">
+                <label for="city">Ville</label>
+                <input type="text" name="city" id="city" placeholder="Paris">
+            </fieldset>
+            <fieldset>
+                <legend>Informations de réglement</legend>
+                <div>Type de carte bancaire</div>
+                <input type="radio" name="card" id="visa">
+                <label for="visa" class="cardtype">VISA</label>
+                <input type="radio" name="card" id="mastercard">
+                <label for="mastercard" class="cardtype">Mastercard</label>
+                <label for="cardnumber">Numéro de carte</label>
+                <input type="text" name="cardnumber" id="cardnumber" placeholder="xxxx xxxx xxxx xxxx">
+                <label for="cryptogram">Code de sécurité</label>
+                <input type="text" name="cryptogram" id="cryptogram" placeholder="xxx">
+                <label for="owner">Nom du titulaire</label>
+                <input type="text" name="owner" id="owner" placeholder="Jean DUPONT">
+            </fieldset>
+            <input type="submit" name="J'achète !" class="button">
+        </form>
+    </body>
+
+</html>
